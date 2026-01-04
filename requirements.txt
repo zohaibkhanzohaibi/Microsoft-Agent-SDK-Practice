@@ -17,6 +17,15 @@ microsoft-agents-hosting-teams
 # Copilot Studio integration
 microsoft-agents-copilotstudio-client
 
+# Model Context Protocol (MCP) for Agent A
+mcp>=1.0.0
+
+# Microsoft Graph API for M365 access
+msgraph-sdk>=1.0.0
+
+# MSAL for authentication
+msal>=1.26.0
+
 # Storage extensions (optional - uncomment if needed)
 # microsoft-agents-storage-blob
 # microsoft-agents-storage-cosmos
