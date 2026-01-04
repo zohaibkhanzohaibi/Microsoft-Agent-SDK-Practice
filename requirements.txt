@@ -1,0 +1,22 @@
+# Microsoft 365 Agents SDK for Python
+# Requires Python 3.9+ (3.12 recommended)
+
+# Core dependencies
+python-dotenv
+aiohttp
+
+# Microsoft Agents SDK packages
+microsoft-agents-activity
+microsoft-agents-hosting-core
+microsoft-agents-hosting-aiohttp
+microsoft-agents-authentication-msal
+
+# Teams channel support
+microsoft-agents-hosting-teams
+
+# Copilot Studio integration
+microsoft-agents-copilotstudio-client
+
+# Storage extensions (optional - uncomment if needed)
+# microsoft-agents-storage-blob
+# microsoft-agents-storage-cosmos
