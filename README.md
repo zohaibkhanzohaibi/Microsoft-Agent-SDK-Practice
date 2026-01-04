@@ -33,18 +33,26 @@ For local testing without authentication, you can leave the values empty.
 ### 3. Run the Agent
 
 ```powershell
-python start_server.py
+python app.py
 ```
 
 The agent will start on `http://localhost:3978`.
 
 ### 4. Test with Agents Playground
 
-Open a new terminal (restart shell if just installed) and run:
+Open a new terminal and run:
 
 ```powershell
 agentsplayground -e "http://localhost:3978/api/messages" -c "emulator"
 ```
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `python app.py` | Start the agent server |
+| `pip install -r requirements.txt` | Install dependencies |
+| `agentsplayground -e "http://localhost:3978/api/messages" -c "emulator"` | Test with Agents Playground |
 
 ## Project Structure
 
